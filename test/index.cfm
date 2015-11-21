@@ -1,14 +1,11 @@
 <cfscript>
 writeAuthor();
 
-function writeAuthor(boolean output)
-{
-	if(arguments.output)
-	{
+function writeAuthor(boolean output) {
+	if(arguments.output) {
 		writeOutput(new subfolder().getAuthor());
 	}
-	else
-	{
+	else {
 		writeDump(new subfolder().getAuthor());
 	}
 }
