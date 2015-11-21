@@ -39,7 +39,7 @@ open command prompt and launch CuddleTool.jar passing the three arguments above
 
 to get output back in command prompt, run the jar like this
 <blockquote>
-	>java -jar ConsoleTest.jar "path" "extension" false
+	>java -jar CuddleTool.jar "path" "extension" false
 </blockquote>
 
 ![cmd](https://github.com/JamieRuntime/CuddleTool/blob/master/images/cmd.png?raw=true "Command Prompt")

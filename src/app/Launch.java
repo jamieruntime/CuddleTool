@@ -142,7 +142,7 @@ public class Launch
         for(int x = 0; x < fileData.size(); x++)
         {
             add = true;
-            if(x > 0 && fileData.get(x).indexOf("{") >= 0)
+            if(x > 0 && fileData.get(x).substring(fileData.get(x).length() - 1).equals("{"))
             {
                 add = false;
                 newData.set(newLines - 1, newData.get(newLines - 1) + " {");
