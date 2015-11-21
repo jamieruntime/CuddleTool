@@ -1,6 +1,7 @@
 Cuddle Tool
 ===========
 
+Version 1.0.0
 Jamie Purchase
 20/11/2015
 
@@ -12,7 +13,7 @@ Converts script files with braces how I write them, like this;
 <blockquote>
 public string function getHello(required string name)<br>
 {<br>
-&Tab;return "Hello " & arguments.name;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;return "Hello " & arguments.name;<br>
 }
 </blockquote>
 
@@ -20,7 +21,7 @@ public string function getHello(required string name)<br>
 
 <blockquote>
 public string function getHello(required string name) {<br>
-&Tab;return "Hello " & arguments.name;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;return "Hello " & arguments.name;<br>
 }
 </blockquote>
 
